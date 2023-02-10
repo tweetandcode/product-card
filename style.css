@@ -29,8 +29,8 @@ body {
 }
 
 .product-image img {
-  height: 100%;
-  width: auto;
+  height: 450px;
+  width: 300px;
   border-radius: 10px 0 0 10px;
 }
 
@@ -133,8 +133,8 @@ body {
   }
 
   .product-image img {
-    width: 100%;
-    height: auto;
+    width: 343px;
+    height: 240px;
     border-radius: 10px 10px 0 0px;
   }
 
