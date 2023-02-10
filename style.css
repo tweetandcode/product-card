@@ -30,6 +30,7 @@ body {
 
 .product-image img {
   height: 100%;
+  width: auto;
   border-radius: 10px 0 0 10px;
 }
 
@@ -41,6 +42,7 @@ body {
 }
 
 .product-category {
+  font-size: 12px;
   font-family: 'Montserrat';
   letter-spacing: 5px;
   line-height: 15px;
