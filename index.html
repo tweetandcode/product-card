@@ -9,8 +9,13 @@
   <body>
     <main class="card">
       <div class="product-image">
-        <img class="desktop-image" src="/image-product-desktop.jpg" alt="">
-        <img class="mobile-image" src="/image-product-mobile.jpg" alt="">
+        <picture>
+          <source srcset="/image-product-mobile.jpg"
+                  media="(max-width: 600px)">
+          <img src="/image-product-desktop.jpg" alt="">
+       </picture>
+        <!-- <img class="desktop-image" src="/image-product-desktop.jpg" alt="">
+        <img class="mobile-image" src="/image-product-mobile.jpg" alt=""> -->
       </div>
       <div class="product-text">
         <div class="product-category">PERFUME</div>
